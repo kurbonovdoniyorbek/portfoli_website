@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_logo {
+    width: 150px;
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.navbar_logo>h1 {
+    font-size: 20px;
+    color: black;
+    white-space: nowrap;
+}
+
+.navbar_container {
+    width: 400px;
+    height: 50px;
+    color: black;
+    margin-right: 100px;
+}
+
+.navbar_items {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.items:hover,
+.navbar_logo>h1:hover {
+    cursor: pointer;
+    color: gray;
+    transition: 0.3s;
+}
+
+.first_page {
+    position: relative;
+    width: 1050px;
+    height: 700px;
+    margin-left: 100px;
+    /* background-image: url(""); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background-image: url("./img/mesh-gradients.svg");
+    background-repeat: no-repeat;
+}
+
+.firstpage_text {
+    font-size: 40px;
+    color: white;
+    padding-top: 280px;
+    padding-left: 300px;
+}
+
+.firstpage_scntext {
+    font-size: 40px;
+    color: white;
+    padding-left: 335px;
+}
+
+.firstpage_scntext>span {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
