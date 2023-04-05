@@ -7,11 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="navbar_logo">
+    <div>
+
+        <nav class="container">
+            <div class="logo">
+                <a href="/">
+                    <h1>Kurbonov Doniyorbek</h1>
+                </a>
+            </div>
+            <ul class="nav-container">
+                <a href="/">
+                    <li class="nav-items">Home</li>
+                </a>
+                <a href="/">
+                    <li class="nav-items">About</li>
+                </a>
+                <a href="/">
+                    <li class="nav-items">Experience</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="container">
+
+            <div class="home_page">
+                <h1 class="firstpage_text">Doniyorbek Kurbonov</h1>
+                <h1 class="firstpage_scntext">I know <span class="auto-typed"></span></h1>
+            </div>
+
+        </div>
+
+        <!-- <div class="navbar_logo">
             <h1>Doniyor Kurbonov</h1>
         </div>
         <div class="navbar_container">
@@ -27,18 +57,13 @@
         <h1 class="firstpage_text">Doniyorbek Kurbonov</h1>
         <br>
         <h1 class="firstpage_scntext">I know <span class="auto-typed"></span></h1>
-    </div>
+    </div> -->
 
 
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".auto-typed", {
-            strings: ["HTML", "CSS", "JAVA SCRIPT", "REACT.JS"],
-            typeSpeed: 150,
-            backSpeed: 150,
-            loop: true
-        })
-    </script>
+        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./index.js">
+        </script>
 </body>
 
 </html>
